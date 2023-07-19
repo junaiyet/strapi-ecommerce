@@ -9,9 +9,9 @@ export default function Home() {
   return (
     <div className="home">
       <Slider />
-      <FeatureProducts type="Featured" />
+      <FeatureProducts type="featured" />
       <Categories />
-      <FeatureProducts type="Trending" />
+      <FeatureProducts type="trending" />
       <Contact />
     </div>
   );
